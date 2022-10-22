@@ -1,0 +1,22 @@
+.content{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+body{
+    text-align: center;
+}
+ol{
+    text-align: left;
+}
+p body{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header, h1, p .header{
+    margin: 10px;
+}
+
+p #references, h3 #references{
+    color: rgb(136, 136, 136);
+}   
