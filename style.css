@@ -23,7 +23,9 @@ p body, .content, .stuck{
 .reference, .end {
     color: rgb(131, 131, 131);
 }   
-
+.end{
+    font-size: 12px;
+}
 #introduction, #keep-going{
     margin-left: 88px;
     margin-right: 88px;
