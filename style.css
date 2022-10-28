@@ -1,6 +1,6 @@
-.content{
-    margin-left: 4%;
-    margin-right: 4%;
+.content, .stuck{
+    margin-left: 56px;
+    margin-right: 56px;
 }
 body{
     text-align: center;
@@ -8,15 +8,38 @@ body{
 ol{
     text-align: left;
 }
-p body{
-    font-size: 14px;
+p body, .content, .stuck{
+    font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+#principles{
+    padding: 10px;
+    padding-left: 40px;
+}
 .header, h1, p .header{
     margin: 10px;
 }
 
-p #references, h3 #references{
-    color: rgb(136, 136, 136);
+.reference, .end {
+    color: rgb(131, 131, 131);
 }   
+
+#introduction, #keep-going{
+    margin-left: 88px;
+    margin-right: 88px;
+}
+#unstuck{
+    width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    margin: -2px;
+    padding: 2px;
+}
+
+#steps .step{
+    padding-top: 8px;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
